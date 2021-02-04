@@ -1,0 +1,321 @@
+body{
+	background-color: #f3ffff;
+
+}
+.SRI-LANKA{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	float: left;
+	clear: both;
+	display: block;
+
+}
+.SRI-LANKA .heading h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: black;
+}
+.SRI-LANKA .col-md-3 .grid-holder .team-content-holder .personal-info .btn{
+	color: #fff;
+	background-color: green;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 0px;
+	line-height: 20px;
+	display : inline-block;
+	font-size: 16px;
+	margin-top: 10px;	
+
+}
+.SRI-LANKA .col-md-3 .grid-holder .team-content-holder .personal-info .btn:hover{
+	background-color: grey;
+}
+.SRI-LANKA .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	color: green;
+
+}
+
+.SRI-LANKA .col-md-3{
+	width: 25%;
+	float: left;
+
+	margin-top: 60px;
+}
+
+.button{
+  background-color: green;
+
+  padding: 10px 20px;
+  width: 100%;
+}
+
+
+
+.DUBAI{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	float: left;
+	clear: both;
+	display: block;
+
+}
+.DUBAI .heading h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #272727;
+}
+.DUBAI .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	
+	color: green;
+}
+.DUBAI .col-md-3 .grid-holder .team-content-holder .personal-info .btn{
+	color: #fff;
+	background-color: green;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 0px;
+	line-height: 20px;
+	display : inline-block;
+	font-size: 16px;
+	margin-top: 10px;	
+
+}
+.DUBAI .col-md-3 .grid-holder .team-content-holder .personal-info .btn:hover{
+	background-color: grey;
+}
+.DUBAI .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	color: green;
+
+}
+
+.DUBAI .col-md-3{
+	width: 25%;
+	float: left;
+
+	margin-top: 60px;
+}
+
+.HONG{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	float: left;
+	clear: both;
+	display: block;
+
+}
+.HONG .heading h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #272727;
+}
+.HONG .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	
+	color: green;
+}
+
+.HONG .col-md-3 .grid-holder .team-content-holder .personal-info .btn{
+	color: #fff;
+	background-color: green;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 0px;
+	line-height: 20px;
+	display : inline-block;
+	font-size: 16px;
+	margin-top: 10px;	
+
+}
+.HONG .col-md-3 .grid-holder .team-content-holder .personal-info .btn:hover{
+	background-color: grey;
+}
+.HONG .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	color: green;
+
+}
+
+.HONG .col-md-3{
+	width: 25%;
+	float: left;
+
+	margin-top: 60px;
+}
+
+
+
+.SING{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	float: left;
+	clear: both;
+	display: block;
+
+}
+.SING .heading h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #272727;
+}
+.SING .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	
+	color: green;
+}
+.SING .col-md-3 .grid-holder .team-content-holder .personal-info .btn{
+	color: #fff;
+	background-color: green;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 0px;
+	line-height: 20px;
+	display : inline-block;
+	font-size: 16px;
+	margin-top: 10px;	
+
+}
+.SING .col-md-3 .grid-holder .team-content-holder .personal-info .btn:hover{
+	background-color: grey;
+}
+.SING .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	color: green;
+
+}
+
+
+.SING .col-md-3{
+	width: 25%;
+	float: left;
+
+	margin-top: 60px;
+}
+
+.MANALI{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	float: left;
+	clear: both;
+	display: block;
+
+}
+.MANALI .heading h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #272727;
+}
+.MANALI .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	
+	color: green;
+}
+
+.MANALI .col-md-3 .grid-holder .team-content-holder .personal-info .btn{
+	color: #fff;
+	background-color: green;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 0px;
+	line-height: 20px;
+	display : inline-block;
+	font-size: 16px;
+	margin-top: 10px;	
+
+}
+.MANALI .col-md-3 .grid-holder .team-content-holder .personal-info .btn:hover{
+	background-color: grey;
+}
+.MANALI .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	color: green;
+
+}
+
+
+.MANALI .col-md-3{
+	width: 25%;
+	float: left;
+
+	margin-top: 60px;
+}
+
+.RAJ{
+	width: 100%;
+	padding: 72px 0px 72px 0px;
+	float: left;
+	clear: both;
+	display: block;
+
+}
+.RAJ .heading h2{
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: #272727;
+}
+.RAJ .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	
+	color: green;
+}
+
+.RAJ .col-md-3 .grid-holder .team-content-holder .personal-info .btn{
+	color: #fff;
+	background-color: green;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 0px;
+	line-height: 20px;
+	display : inline-block;
+	font-size: 16px;
+	margin-top: 10px;	
+
+}
+.RAJ .col-md-3 .grid-holder .team-content-holder .personal-info .btn:hover{
+	background-color: grey;
+}
+.RAJ .col-md-3 .grid-holder .team-content-holder .personal-info h3{
+	color: green;
+
+}
+
+
+.RAJ .col-md-3{
+	width: 25%;
+	float: left;
+
+	margin-top: 60px;
+}
+
+.checked {
+  color: green;
+  box-sizing:border-box;
+  }
