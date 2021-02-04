@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider</title>
+
+
+<style type="text/css">
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#slider9 { margin: 0; } 
+div#slider9 { overflow: hidden; }
+div#slider9 figure img { width: 20%; float: left; }
+div#slider9 figure { 
+  position: relative;
+  width: 500%;
+  height: 630px;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  animation: 30s slidy infinite; 
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="slider9">
+<figure>
+<img src="img/bridge.jpg" alt>
+<img src="img/resort1.jpg" alt>
+<img src="img/G1.jpg" alt>
+<img src="img/G9.jpg" alt>
+<img src="img/THE BAHAMAS.jpg" alt>
+</figure>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Registration</title>
+	<link rel="stylesheet" href="css/reg.css">
+		<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="logo">
+<img src="img/logo.png" alt="logo">
+    <h2>TRAVEL  AGENCY</h2>
+</div>
+
+<div class="navbar">
+  <a  href="home.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="packages.html"><i class="fa fa-fw fa-book"></i> Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Destination 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+      <div class="row">
+        <div class="column">
+          <h3>National</h3>
+          <a href="pack1.html">SriLanka</a>
+          <a href="pack5.html">Manali</a>
+          <a href="pack6.html">Rajasthan</a>
+        </div>
+        <div class="column">
+          <h3>International</h3>
+          <a href="pack4.html">Singapore</a>
+          <a href="pack2.html">Dubai</a>
+          <a href="pack3.html">HongKong</a>
+        </div>
+      </div>
+    </div>
+  </div>   
+  <a href="abt.html"><i class="fa fa-fw fa-question-circle-o"></i> About</a>
+  <a href="map.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+	<div class="login-page">
+	<div class="form">
+			<form class="register-form" action="log.php" method="post" name="form1">
+			
+			<input type="text" placeholder="First Name *" name="firstname" /required>
+			<input type="text" placeholder="Last Name *" name="lastname" /required> 
+			<input type="text" placeholder="username *" name="username" /required>
+			<input type="password" placeholder="password *" name="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" /required>
+			<input type="password" placeholder="Confirm_Password *" name="confirm_password" /required>
+			<input type="tel" placeholder="Phone_no" name="phone_no" size="10" minlength="10"/>
+			<input type="text" placeholder="email *" name="email" /required>
+			<input type="submit" value="Submit">
+			<p class="message">Already Registered?<a href="#">login</a>
+			</p>
+			</form>
+		
+<form class="login-form" action="in.php" method="post">
+			<input type="text" placeholder="email" name="email" />
+			<input type="password" placeholder="password" name="password" />
+			<button>Login</button>
+			<p class="message">Not Registered?<a href="#">Register</a>
+			</p>
+			</form>
+	</div>
+	</div>
+	
+	<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+	<script>
+		$('.message a').click(function(){
+		$('form').animate({hight:"toggle",opacity:"toggle"},"fast");
+		});
+	</script>
+	<script type="text/javascript">
+  function validate1(){
+
+    var ph = form1.phone_no.value;
+    var pass = form1.password.value;
+    var conpass = form1.confirm_password.value;
+
+
+    if(conpass!= pass){
+      alert("PASSWORD DOES NOT MATCH!")
+      form1.confirm_password.focus();
+      return false;
+    }
+
+    if(ph.length<10){
+      alert("LENGTH OF PHONE NUMBER SHOULD BE 10")
+      form1.phone_no.focus();
+      return false;
+    }
+
+    if(isNan(ph)){
+      alert("INVALID PHONE NUMBER")
+      form1.phone_no.focus();
+      return false;
+    }
+    return true;
+  }
+</script>
+
+</body>
+</html>

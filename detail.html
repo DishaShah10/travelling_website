@@ -1,0 +1,103 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		
+.modal {
+  /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 250px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+	</style>
+</head>
+<body>
+	<div class="logo">
+<img src="img/logo.png" alt="logo">
+    <h2>TRAVEL  AGENCY</h2>
+</div>
+
+<div class="navbar" id="myTopnav">
+  <a  href="home.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="packages.html"><i class="fa fa-fw fa-book"></i> Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Destination 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">  
+      <div class="row">
+        <div class="column">
+          <h3>National</h3>
+          <a href="pack1.html">SriLanka</a>
+          <a href="pack5.html">Manali</a>
+          <a href="pack6.html">Rajasthan</a>
+        </div>
+        <div class="column">
+          <h3>International</h3>
+          <a href="pack4.html">Singapore</a>
+          <a href="pack2.html">Dubai</a>
+          <a href="pack3.html">HongKong</a>
+        </div>
+      </div>
+    </div>
+  </div>   
+  <a href="abt.html"><i class="fa fa-fw fa-question-circle-o"></i> About</a>
+  <a href="map.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+ 
+</div>
+	<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+	
+	<h1>Congratulations!!</h1><br><br>
+	<h3>Your package is booked successfully!</h3><br><br>
+	<h3>Enjoy your Trip</h3>
+	<h2></h2>    
+    <button type="button" onclick="window.location.href='home.html';">Close</button>
+  </form>
+  </div>
+
+</div>
+
+</body>
+</html>

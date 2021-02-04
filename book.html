@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOK HERE!</title>
+	<link rel="stylesheet " type="text/css" href="book.css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style>
+	
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+</head>
+
+<body>
+	
+	<div class="booking-form-box">
+		<form class="booking-form" action="book.php" method="post" name="form2">
+			
+			<h2>BOOK HERE!</h2>
+			<label>Going To</label>
+      <input type=""  class="form-control" name="to" placeholder="To">
+		<!--	<select class="custom-select">
+				<option value="1">select</option>
+				<option value="2">Hong-Kong</option>
+				<option value="3">Dubai</option>
+				<option value="4">Singapore</option>
+				<option value="5">Shimla-Manali</option>
+				<option value="6">Rajasthan</option>
+				<option value="7">Sri lanka</option>
+			</select>-->
+
+			<label>leaving From</label>
+			<input type="text" class="form-control" placeholder="From" name="fromm" /required>
+
+			<div class="input-grp">
+			<label>Dparting</label>
+			<input type="date" class="form-control select-date" name="departing" /required>
+			</div>
+			<div class="input-grp">
+			<label>Returning</label>
+			<input type="date" class="form-control select-date" name="returning" /required>
+			</div>
+
+
+			
+			<div class="input-grp">
+				<label>Adult</label>
+			<input type="number" class="form-control" value="0" name="adult" /required>
+			</div>
+
+			
+			<div class="input-grp">
+				<label>Children</label>
+			<input type="number" class="form-control" value="0" name="children" /required>		
+			</div>
+		
+		<div class="input-grp-btn">
+				
+			
+				<div class="popup" onclick="window.location.href='detail.html';"><button type="button" class="book">BOOK
+				</button>
+  <span class="popuptext" id="myPopup" href="detail.html" style="color: #EC7063">Successfully Booked! </span>
+    
+</div>
+</div>
+		</div>
+		</div>
+		
+	</div>
+</form>
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script>
+    $('.message a').click(function(){
+    $('form').animate({hight:"toggle",opacity:"toggle"},"fast");
+    });
+  </script>
+<script>
+ When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+
+</body>
+</html>
